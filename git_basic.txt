@@ -10,4 +10,21 @@ basic commands
     9. setting user email   - git config --global user.email
     10. checking our commits- git log
     11. commits in oneline   - git log --oneline
-    12. 
+
+
+undoing things:
+    1. git show                 - to see last commit
+    2. git show HEAD            - Also show last commit
+    3. git show HEAD~1          - show 2nd commit so on depends on the number
+    4. git checkout filename    - to undo the changes made to file
+    5. git checkout ./*(anyone) - to undo changes for all files at a time
+
+    we can not delete prious commits using checkout
+    but using the commit code we can delete
+    
+    6. git checkout f4rgas      - to delete the commits
+
+    checkout is only read only commit we can not add any commmit 
+
+
+    7. git revert GIT_ID        - undo work of only specifed commit
