@@ -1,0 +1,7 @@
+/git_basic.txt
+
+# Auto generate files
+# /auto-gen-files/a.txt
+# /auto-gen-files/b.txt
+# /auto-gen-files/c.txt
+/auto-gen-files/*.txt
